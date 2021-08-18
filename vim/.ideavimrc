@@ -1,0 +1,32 @@
+" ~/.ideavimrc
+
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
+
+map <leader> \
+inoremap jk <ESC>
+nnoremap , :
+nnoremap <leader>1 :noh<CR>
+nnoremap <S-u> <C-r>
+
+nmap <leader>y ggVG"+y''
+nmap <leader>= gg=G''
+
+set number
+set hlsearch
+set ignorecase
+set incsearch
+set matchpairs
+set number
+set scrolloff=5
+set showmode
+set sidescroll=1
+set sidescrolloff=5
+set smartcase
+set wrapscan
+set clipboard=unnamed
+set nrformats=alpha,octal,hex,bin " C-a, C-x
+set startofline
+
+set ideajoin

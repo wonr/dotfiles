@@ -1,0 +1,43 @@
+/*
+서체 A를 시스템에 설치된 B로 표시하거나, B가 없는 경우 C로 표시
+@font-face {
+    font-family: "Font A";
+    src: local("Font B"),
+    local("Font C")
+}
+*/
+
+@font-face {    
+    font-family: "돋움";
+    src: local("Apple SD Gothic Neo");
+}
+
+@font-face {
+    font-family: Dotum;
+    src: local("Apple SD Gothic Neo");
+}
+
+@font-face {
+    font-family: DotumChe;
+    src: local("Apple SD Gothic Neo");
+}
+
+@font-face {
+    font-family: "굴림";
+    src: local("Apple SD Gothic Neo");
+}
+
+@font-face {
+    font-family: Gulim;
+    src: local("Apple SD Gothic Neo");
+}
+
+@font-face {
+    font-family: GulimChe;
+    src: local("Apple SD Gothic Neo");
+}
+
+@font-face {
+    font-family: AppleGothic;
+    src: local("Apple SD Gothic Neo");
+}
